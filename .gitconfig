@@ -1,0 +1,18 @@
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = ~/.dotfiles/.gitignore
+	editor = /usr/bin/vim
+[color]
+	ui = auto
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+[branch]
+	autosetupmerge = true
+	autosetuprebase = always
+[diff]
+	algorithm = patience
+[push]
+	default = simple
