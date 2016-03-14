@@ -12,6 +12,12 @@ Plugin 'https://github.com/shime/vim-livedown.git'
 
 Plugin 'https://github.com/jimmyhchan/dustjs.vim.git'
 
+Plugin 'luochen1990/indent-detector.vim'
+
+Plugin 'pangloss/vim-javascript'
+
+Plugin 'nathanaelkane/vim-indent-guides'
+
 " All of your Plugins must be added before the following line
 call vundle#end()
 filetype plugin indent on
@@ -38,6 +44,9 @@ au BufRead,BufNewFile *.js.ejs setfiletype javascript
 au BufRead,BufNewFile *.json setfiletype javascript
 au BufRead,BufNewFile *.css.ejs setfiletype css
 au BufRead,BufNewFile *.dust setfiletype html
+
+set shiftwidth=4
+set tabstop4
 
 set enc=utf-8
 set fenc=utf-8
