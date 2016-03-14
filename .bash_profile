@@ -28,9 +28,6 @@ shopt -s cdspell
 # Append to the Bash history file, rather than overwriting it
 shopt -s histappend
 
-. ~/prompt.sh
-
-
 
 # Aliases
 # =======
@@ -38,3 +35,14 @@ shopt -s histappend
 alias slt='open -a "Sublime Text 2"'
 
 [[ -s "$HOME/.nvm/nvm.sh" ]] && source "$HOME/.nvm/nvm.sh"
+
+
+# Load .extra
+# ===========
+
+source $HOME/.extra
+
+
+# Load prompt
+# ===========
+. ~/prompt.sh

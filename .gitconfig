@@ -16,3 +16,6 @@
 	algorithm = patience
 [push]
 	default = simple
+[user]
+	name = Glynn Phillips
+	email = glynndominicphillips@gmail.com
