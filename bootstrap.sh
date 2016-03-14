@@ -5,12 +5,13 @@ git pull origin master
 function doIt() {
 
     echo "Creating symlinks..."
-    rm -rf ~/.bash_profile ~/.bashrc ~/.gitconfig ~/.inputrc ~/prompt.sh
+    rm -rf ~/.bash_profile ~/.bashrc ~/.gitconfig ~/.inputrc ~/prompt.sh ~/.vimrc
     ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
     ln -s ~/.dotfiles/.bashrc ~/.bashrc
     ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
     ln -s ~/.dotfiles/.inputrc ~/.inputrc
     ln -s ~/.dotfiles/prompt.sh ~/prompt.sh
+    ln -s ~/.dotfiles/.vimrc ~/.vimrc
     touch ~/.hushlogin
 
     echo "Loading bash_profile..."
