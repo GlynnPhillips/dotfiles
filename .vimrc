@@ -46,7 +46,7 @@ au BufRead,BufNewFile *.css.ejs setfiletype css
 au BufRead,BufNewFile *.dust setfiletype html
 
 set shiftwidth=4
-set tabstop4
+set tabstop=4
 
 set enc=utf-8
 set fenc=utf-8
