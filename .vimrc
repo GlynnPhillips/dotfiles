@@ -51,8 +51,4 @@ set tabstop=4
 set enc=utf-8
 set fenc=utf-8
 
-set backupdir=~/tmp/vim/backup
-set directory=~/tmp/vim/swap
-set backup
-
 syntax on
